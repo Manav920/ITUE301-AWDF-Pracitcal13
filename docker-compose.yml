@@ -3,7 +3,7 @@
 # CSPIT - Department of Computer Science & Engineering
 # ITUE301: Advanced Web Development Frameworks
 # Practical 11: Containerization with Docker and Docker Compose
-# Student: Parth Patel (ID: 24CS069)
+# Student: Manav Lathiya (ID: 24CS048)
 # ==============================================================================
 
 services:
@@ -20,7 +20,7 @@ services:
     networks:
       - app-network
     environment:
-      - MONGO_INITDB_DATABASE=task_manager_24cs069
+      - MONGO_INITDB_DATABASE=task_manager_24cs048
 
   # 2. Node.js / Express Backend Service
   backend:
@@ -33,8 +33,8 @@ services:
       - "5000:5000"
     environment:
       - PORT=5000
-      - MONGO_URI=mongodb://mongodb:27017/task_manager_24cs069
-      - JWT_SECRET=supersecretjwtkey_24cs069_parth_practical11
+      - MONGO_URI=mongodb://mongodb:27017/task_manager_24cs048
+      - JWT_SECRET=supersecretjwtkey_24cs048_manav_practical11
       - JWT_EXPIRES_IN=1h
       - CACHE_TTL_SECONDS=60
       - NODE_ENV=production

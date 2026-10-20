@@ -1,6 +1,6 @@
 // ==============================================================================
 // ITUE301: Advanced Web Development Frameworks - Practical 13
-// Student: Parth Patel (ID: 24CS069)
+// Student: Manav Lathiya (ID: 24CS048)
 // AI API Service (Google Gemini Integration & Graceful Degradation)
 // ==============================================================================
 

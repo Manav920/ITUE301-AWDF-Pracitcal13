@@ -1,14 +1,14 @@
 # Practical 13: AI API Integration into a Web Application
 
-[![CI Pipeline](https://github.com/24CS069Parth/ITUE301-AWDF_Practical13/actions/workflows/ci.yml/badge.svg)](https://github.com/24CS069Parth/ITUE301-AWDF_Practical13/actions/workflows/ci.yml)
+[![CI Pipeline](https://github.com/24CS048Manav/ITUE301-AWDF_Practical13/actions/workflows/ci.yml/badge.svg)](https://github.com/24CS048Manav/ITUE301-AWDF_Practical13/actions/workflows/ci.yml)
 
 **Course**: Advanced Web Development Frameworks (ITUE301)  
 **Department**: Department of Computer Science and Engineering  
 **Institute**: Chandubhai S. Patel Institute of Technology (CSPIT), CHARUSAT  
 **Academic Year**: 2025–2026  
-**Student Name**: Parth Patel  
-**Student ID**: 24CS069  
-**GitHub Repository**: [24CS069Parth/ITUE301-AWDF_Practical13](https://github.com/24CS069Parth/ITUE301-AWDF_Practical13)
+**Student Name**: Manav Lathiya  
+**Student ID**: 24CS048  
+**GitHub Repository**: [24CS048Manav/ITUE301-AWDF_Practical13](https://github.com/24CS048Manav/ITUE301-AWDF_Practical13)
 
 ---
 
@@ -23,7 +23,7 @@ To integrate an external AI service (**Google Gemini API**) into the full-stack 
 
 1. Open the backend environment file:
    ```
-   c:\Users\Anisha\Desktop\Parth\24CS069\AWDF\Prac13\backend\.env
+   c:\Users\Anisha\Desktop\Manav\24CS048\AWDF\Prac13\backend\.env
    ```
 2. Locate the line:
    ```env

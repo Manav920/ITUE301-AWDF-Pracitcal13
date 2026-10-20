@@ -1,5 +1,5 @@
 # Practical 11: Containerization with Docker & Docker Compose
-# Student: Parth Patel (24CS069)
+# Student: Manav Lathiya (24CS048)
 # Node.js backend container definition
 
 FROM node:20-alpine

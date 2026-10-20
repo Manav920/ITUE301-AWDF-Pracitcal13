@@ -5,7 +5,7 @@ name: CI Pipeline
 # CSPIT - Department of Computer Science & Engineering
 # ITUE301: Advanced Web Development Frameworks
 # Practical 13: AI API Integration with Google Gemini
-# Student: Parth Patel (ID: 24CS069)
+# Student: Manav Lathiya (ID: 24CS048)
 # ==============================================================================
 
 # Configure trigger for both push and pull_request targeting main
@@ -62,7 +62,7 @@ jobs:
         run: npm test
         env:
           NODE_ENV: test
-          JWT_SECRET: supersecret_ci_test_key_24cs069
+          JWT_SECRET: supersecret_ci_test_key_24cs048
           GEMINI_API_KEY: your_gemini_api_key_here
           PORT: 5000
 
@@ -71,6 +71,6 @@ jobs:
         run: |
           echo "=========================================="
           echo "Practical 13 CI Pipeline Completed"
-          echo "Student: Parth Patel (24CS069)"
+          echo "Student: Manav Lathiya (24CS048)"
           echo "Test Job Status: ${{ job.status }}"
           echo "=========================================="

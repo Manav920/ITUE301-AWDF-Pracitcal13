@@ -1,6 +1,6 @@
 # Event-Driven Architecture & Async Processing Report: Practical 10
 
-**Student**: Parth Patel (24CS069)  
+**Student**: Manav Lathiya (24CS048)  
 **Course**: ITUE301 - Advanced Web Development Frameworks  
 **Institution**: CSPIT, CHARUSAT  
 

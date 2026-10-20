@@ -77,7 +77,7 @@ async function run() {
   console.log('=================================================================');
 
   // 1. Authenticate to get token
-  const login = await post('/login', { email: '24cs069@charusat.edu.in', password: 'password123' });
+  const login = await post('/login', { email: '24cs048@charusat.edu.in', password: 'password123' });
   const token = login.data.token;
   console.log('✓ Logged in as:', login.data.user.email);
 

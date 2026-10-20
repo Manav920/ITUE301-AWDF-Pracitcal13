@@ -13,8 +13,8 @@ const { generateTaskDescription } = require('./aiService');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/task_manager_24cs069';
-const JWT_SECRET = process.env.JWT_SECRET || 'supersecretjwtkey_24cs069_parth_practical10';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/task_manager_24cs048';
+const JWT_SECRET = process.env.JWT_SECRET || 'supersecretjwtkey_24cs048_manav_practical10';
 const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN || '1h';
 const CACHE_TTL_SECONDS = parseInt(process.env.CACHE_TTL_SECONDS || '60', 10);
 
@@ -40,15 +40,15 @@ mongoose
 // Seed default demo student user & tasks for instant verification
 async function seedDemoUserAndTasks() {
   try {
-    let demoUser = await User.findOne({ email: '24cs069@charusat.edu.in' });
+    let demoUser = await User.findOne({ email: '24cs048@charusat.edu.in' });
     if (!demoUser) {
       console.log('Creating default demo user for Practical 7...');
       demoUser = await User.create({
-        name: 'Parth Patel',
-        email: '24cs069@charusat.edu.in',
+        name: 'Manav Lathiya',
+        email: '24cs048@charusat.edu.in',
         password: 'password123',
       });
-      console.log('Demo user created: 24cs069@charusat.edu.in / password123');
+      console.log('Demo user created: 24cs048@charusat.edu.in / password123');
     }
 
     const taskCount = await Task.countDocuments({ user: demoUser._id });
@@ -565,7 +565,7 @@ app.get('/', (req, res) => {
   const hasGeminiKey = Boolean(process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY !== 'your_gemini_api_key_here');
   res.status(200).json({
     message: 'ITUE301 Practical 13: AI API Integration into a Web Application API',
-    student: 'Parth Patel (24CS069)',
+    student: 'Manav Lathiya (24CS048)',
     aiService: {
       engine: 'Google Gemini API (gemini-1.5-flash)',
       keyStatus: hasGeminiKey ? 'CONFIGURED' : 'UNCONFIGURED (Graceful Degradation Active)',
@@ -595,7 +595,7 @@ app.get('/', (req, res) => {
       deleteTask: 'DELETE /tasks/:id (Protected)',
     },
     demoCredentials: {
-      email: '24cs069@charusat.edu.in',
+      email: '24cs048@charusat.edu.in',
       password: 'password123',
     },
   });

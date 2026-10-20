@@ -219,7 +219,7 @@ export default function DockerMonitor() {
         {healthData && (
           <div style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid rgba(255, 255, 255, 0.1)', fontSize: '0.78rem', color: '#94a3b8', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '8px' }}>
             <span>Uptime: <strong>{healthData.uptimeSeconds || 0}s</strong> | Node: <strong>{healthData.container?.nodeVersion || 'v18+'}</strong></span>
-            <span>Connected Host: <strong>{healthData.database?.host || 'localhost'}</strong> ({healthData.database?.database || 'task_manager_24cs069'})</span>
+            <span>Connected Host: <strong>{healthData.database?.host || 'localhost'}</strong> ({healthData.database?.database || 'task_manager_24cs048'})</span>
             <span>Last Probe: <strong>{lastChecked || 'Initial'}</strong></span>
           </div>
         )}

@@ -2,12 +2,12 @@
 ## Academic Viva Report & Technical Analysis
 
 **Course**: Advanced Web Development Frameworks (ITUE301)  
-**Student Name**: Parth Patel  
-**Student ID**: 24CS069  
+**Student Name**: Manav Lathiya  
+**Student ID**: 24CS048  
 **Department**: Computer Science and Engineering  
 **Institute**: Chandubhai S. Patel Institute of Technology (CSPIT), CHARUSAT  
 **Date**: October 2026  
-**Repository**: [24CS069Parth/ITUE301-AWDF_Practical13](https://github.com/24CS069Parth/ITUE301-AWDF_Practical13)
+**Repository**: [24CS048Manav/ITUE301-AWDF_Practical13](https://github.com/24CS048Manav/ITUE301-AWDF_Practical13)
 
 ---
 
@@ -102,7 +102,7 @@ Rather than exposing API credentials in browser network requests or depending ri
 ## 5. Automated Verification & Test Coverage
 
 All 9 automated Jest and Supertest integration tests passed:
-- `GET /`: Validates server metadata and Student ID `24CS069`.
+- `GET /`: Validates server metadata and Student ID `24CS048`.
 - `GET /health`: Verifies microservice health and AI service readiness.
 - `GET /events/history`: Validates decoupled event listener telemetry.
 - `GET /tasks`: Enforces 401 Unauthorized guard on protected endpoints.
